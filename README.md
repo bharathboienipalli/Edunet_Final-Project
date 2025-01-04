@@ -18,8 +18,18 @@ git clone https://github.com/bharathboienipalli/Edunet_Final-Project.git
 **Navigate to the project directory:**
 cd Edunet_Final-Project
 
-**Install dependencies:**
+**Install dependencies for the backend**
+cd backend
 npm install
 
-**Start the application:**
+**Install dependencies for the frontend**
+cd ../frontend
+npm install
+
+**Start the backend server**
+cd ../backend
+npm start
+
+**Start the frontend application**
+cd ../frontend
 npm start
